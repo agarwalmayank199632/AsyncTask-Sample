@@ -63,11 +63,11 @@ public class MainActivity extends AppCompatActivity {
             progressDialog.dismiss();
             if(Integer.parseInt(result)==1)
             {
-                Toast.makeText(MainActivity.this,"Successful",Toast.LENGTH_SHORT).show();
+                Toast.makeText(MainActivity.this,"Successful",Toast.LENGTH_LONG).show();
             }
             else
             {
-                Toast.makeText(MainActivity.this,"Failed",Toast.LENGTH_SHORT).show();
+                Toast.makeText(MainActivity.this,"Failed",Toast.LENGTH_LONG).show();
             }
         }
     }
